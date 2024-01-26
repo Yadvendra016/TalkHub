@@ -26,17 +26,6 @@ function Home() {
         </div>
         <div className={styles.signinWrapper}>
           <span style={{ color: "#0077ff" }}>Have an invite text?</span>
-          <Link
-            style={{
-              color: "#0077ff",
-              fontWeight: "bold",
-              textDecoration: "none",
-              marginLeft: "12px",
-            }}
-            to="/login"
-          >
-            Sign In
-          </Link>
         </div>
       </Card>
     </div>
