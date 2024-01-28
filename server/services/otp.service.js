@@ -6,7 +6,7 @@ class OtpService {
     // generate opt using crypto
     const otp = crypto.randomInt(1000, 9999);
     // hash otp
-    const hash = hashService.hashOtp();
+    const hashedOtp = hashService.hashOtp(otp.toString());
 
     return otp;
   }
